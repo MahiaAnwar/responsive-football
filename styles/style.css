@@ -1,1 +1,36 @@
 /* top players style */
+.p{
+    display: flex;
+    width: 50%;
+    padding-left: 10%;
+    font-size: 150%;
+    background-color: darkblue;
+    background-position: 3em ;
+
+    
+    
+    
+}
+.p img{
+    width: 80%;
+    
+}
+.l{
+    
+}
+h1{
+    color: floralwhite;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.player img{
+    width: 330px;
+    height: 474px;
+    border: center;
+}
+
